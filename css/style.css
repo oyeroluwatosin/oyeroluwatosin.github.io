@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    width: 30%;
+    background-color: #7e6d57;
+    height: 100%;
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay on top */
+    left: 0;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+}
+
+header #images img {
+    border-radius: 70%;
+    text-align: center;
+    width: 27%;
+    height: 30%;
+}
+
+#images {
+    text-align: center;
+    background: #655643;
+    color: white;
+}
+
+#remain {
+    color: white;
+    padding: 10px 2px 0px 10px;
+}
+
+#info {
+    margin-bottom: 10px;
+}
+
+#info ul {
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+#info ul li {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.icon-background {
+    color: #655643;
+}
+
+hr {
+    border: 2px solid;
+    width: 5%;
+    margin-bottom: 5px;
+}
+
+#career {
+    margin-bottom: 5px;
+}
+
+
+/* .midddle {
+    margin-bottom: 50px;
+} */
+
+#career p {
+    padding-bottom: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#skills ul {
+    margin-left: 13px;
+}
+
+#skills ul li {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+main {
+    margin-left: 30%;
+    padding: 20px;
+}
+
+#educational {
+    margin-bottom: 20px;
+}
+
+#educational ul {
+    margin-left: 60px;
+}
+
+#educational ul li {
+    line-height: 30px;
+}
+
+#work {
+    margin-bottom: 20px;
+}
+
+#work ul {
+    margin-left: 60px;
+}
+
+#work ul li {
+    line-height: 25px;
+}
+
+.content {
+    margin-left: 50px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 80%;
+    background: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(254, 236, 164, 1);
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.wrapper .input-field {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.wrapper .input-field input[type="text"],
+.wrapper .input-field input[type="email"],
+.wrapper textarea {
+    width: 70%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+.wrapper textarea {
+    height: 80px;
+    resize: none;
+}
+
+.wrapper .btn input[type="submit"] {
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 50%;
+    background: #655643;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.wrapper #error-message {
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
