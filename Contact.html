@@ -16,21 +16,21 @@
         <p>It will be of great joy in helping you recreate and visual your thought to a full software solution.<br>Fill This form below for further Explanation</p>
         <div id="error-message"></div>
 
-        <form id="my_form" onsubmit="return validation()">
+        <form action="mail.php" method="POST" id="my_form" onsubmit="return validation()">
             <div class="input-field">
-                <input type="text" id="name" placeholder="Enter in your name">
+                <input type="text" id="name" placeholder="Enter in your name" name="name">
             </div>
 
             <div class="input-field">
-                <input type="text" id="title" placeholder="Title">
+                <input type="text" id="title" placeholder="Title" name="title">
             </div>
 
             <div class="input-field">
-                <input type="email" id="email-address" placeholder="Enter your Email Address">
+                <input type="email" id="email-address" placeholder="Enter your Email Address" name="email">
             </div>
 
             <div class="input-field">
-                <textarea id="message" placeholder="Enter your message"></textarea>
+                <textarea id="message" placeholder="Enter your message" name="message"></textarea>
             </div>
 
             <div class="btn">
