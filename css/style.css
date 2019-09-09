@@ -132,15 +132,15 @@ main {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .wrapper h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .wrapper .input-field {
@@ -163,7 +163,7 @@ main {
 
 .wrapper .btn input[type="submit"] {
     border: 0;
-    margin-top: 15px;
+    margin-top: 5px;
     padding: 10px;
     width: 50%;
     background: #655643;
@@ -181,4 +181,133 @@ main {
     text-align: center;
     font-size: 14px;
     transition: all 0.5s ease;
+}
+
+@media(max-width:450px) {
+    header {
+        position: fixed;
+        width: 39%;
+        background-color: #7e6d57;
+        height: 150vh;
+        z-index: 1;
+        /* Stay on top */
+        top: 0;
+        /* Stay on top */
+        left: 0;
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+    }
+    header h2 {
+        font-size: 14px;
+    }
+    header p {
+        font-size: 13px;
+    }
+    #remain {
+        color: white;
+    }
+    header #remain {
+        font-size: 12px;
+    }
+    header h3 {
+        font-size: 13px;
+    }
+    #info ul li {
+        font-size: 12px;
+        text-align: center;
+    }
+    main {
+        margin-left: 50%;
+        padding: 0px;
+        /* text-align: center; */
+    }
+    main h3 {
+        font-size: 13px;
+    }
+    #educational {
+        margin-bottom: 20px;
+    }
+    #educational ul {
+        margin-left: 0px;
+    }
+    #educational ul li {
+        line-height: 30px;
+        font-size: 12px;
+    }
+    #work {
+        margin-bottom: 20px;
+    }
+    #work ul {
+        margin-left: 00px;
+    }
+    #work ul li {
+        line-height: 25px;
+    }
+    .content {
+        margin-left: 00px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .year {
+        float: right;
+    }
+    .wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 100vh;
+        background: #fff;
+        border: 2px solid black;
+        border-radius: 5px;
+        box-shadow: 4px 4px 2px rgba(254, 236, 164, 1);
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+        /* padding-top: 30px; */
+    }
+    .wrapper h2 {
+        text-align: center;
+        /* margin-bottom: 20px; */
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+    .wrapper .input-field {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .wrapper .input-field input[type="text"],
+    .wrapper .input-field input[type="email"],
+    .wrapper textarea {
+        width: 70%;
+        border: 1px solid #e0e0e0;
+        padding: 5px;
+    }
+    .wrapper textarea {
+        height: 80px;
+        resize: none;
+    }
+    .wrapper .btn input[type="submit"] {
+        border: 0;
+        margin-top: 5px;
+        padding: 10px;
+        width: 50%;
+        background: #655643;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: bold;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    .wrapper #error-message {
+        margin-bottom: 10px;
+        padding: 0px;
+        background: #fe8b8e;
+        text-align: center;
+        font-size: 12px;
+        transition: all 0.5s ease;
+    }
 }
