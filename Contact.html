@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <section class="wrapper">
+        <h2>Contact Me</h2>
+        <p>It will be of great joy in helping you recreate and visual your thought to a full software solution.<br>Fill This form below for further Explanation</p>
+        <div id="error-message"></div>
+
+        <form action="mail.php" method="POST" id="my_form" onsubmit="return validation()">
+            <div class="input-field">
+                <input type="text" id="name" placeholder="Enter in your name" name="name">
+            </div>
+
+            <div class="input-field">
+                <input type="text" id="title" placeholder="Title" name="title">
+            </div>
+
+            <div class="input-field">
+                <input type="email" id="email-address" placeholder="Enter your Email Address" name="email">
+            </div>
+
+            <div class="input-field">
+                <textarea id="message" placeholder="Enter your message" name="message"></textarea>
+            </div>
+
+            <div class="btn">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
